@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hangman game with Creole puzzles</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="play_btn_txt">Play</string>
+    <string name="game_desc_bckground">Hangman game background</string>
+</resources>
