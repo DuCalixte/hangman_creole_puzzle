@@ -28,6 +28,7 @@ proguard/
 *.iws
 .idea/
 
+# android emulator/simulators & plugins
 android/.metadata/
 *.cfs
 
