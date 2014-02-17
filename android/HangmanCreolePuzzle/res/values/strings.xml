@@ -14,4 +14,5 @@
     <string name="left_leg_desc">The left leg of the man to hang</string>
     <string name="right_leg_desc">The right leg of the man to hang</string>
     <string name="letter_button_desc">Press button to diplay letter</string>
+    <string name="help_title">Help</string>
 </resources>
