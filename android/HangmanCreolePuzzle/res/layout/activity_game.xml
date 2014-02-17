@@ -9,4 +9,103 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin" >
 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFFFF"
+        android:paddingTop="15dp" >
+
+        <ImageView
+            android:id="@+id/imageViewGallows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/gallows_desc"
+            android:paddingLeft="0dp"
+            android:paddingTop="0dp"
+            android:src="@drawable/android_hangman_gallows" />
+
+        <ImageView
+            android:id="@+id/imageViewHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/head_desc"
+            android:paddingLeft="108dp"
+            android:paddingTop="23dp"
+            android:src="@drawable/android_hangman_head" />
+
+        <ImageView
+            android:id="@+id/imageViewBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/body_desc"
+            android:paddingLeft="120dp"
+            android:paddingTop="53dp"
+            android:src="@drawable/android_hangman_body" />
+
+        <ImageView
+            android:id="@+id/imageViewLeftArm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/left_arm_desc"
+            android:paddingLeft="100dp"
+            android:paddingTop="60dp"
+            android:src="@drawable/android_hangman_arm1" />
+
+        <ImageView
+            android:id="@+id/imageViewRightArm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/right_arm_desc"
+            android:paddingLeft="120dp"
+            android:paddingTop="60dp"
+            android:src="@drawable/android_hangman_arm2" />
+
+        <ImageView
+            android:id="@+id/imageViewLeftLeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/left_leg_desc"
+            android:paddingLeft="101dp"
+            android:paddingTop="90dp"
+            android:src="@drawable/android_hangman_leg1" />
+
+        <ImageView
+            android:id="@+id/imageViewRightLeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/right_leg_desc"
+            android:paddingLeft="121dp"
+            android:paddingTop="90dp"
+            android:src="@drawable/android_hangman_leg2" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#FFFFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridViewLetters"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="#FF000000"
+        android:horizontalSpacing="5dp"
+        android:numColumns="7"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" >
+
+    </GridView>
+
 </LinearLayout>

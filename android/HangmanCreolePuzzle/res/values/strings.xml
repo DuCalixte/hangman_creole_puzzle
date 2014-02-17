@@ -6,4 +6,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="play_btn_txt">Play</string>
     <string name="game_desc_bckground">Hangman game background</string>
+    <string name="gallows_desc">The gallows</string>
+    <string name="head_desc">The head of the man to hang</string>
+    <string name="body_desc">The body of the man to hang</string>
+    <string name="left_arm_desc">The left arm of the man to hang</string>
+    <string name="right_arm_desc">The right arm of the man to hang</string>
+    <string name="left_leg_desc">The left leg of the man to hang</string>
+    <string name="right_leg_desc">The right leg of the man to hang</string>
+    <string name="letter_button_desc">Press button to diplay letter</string>
 </resources>
